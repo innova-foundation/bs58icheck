@@ -2,7 +2,7 @@
 
 var createHash = require('create-hash')
 var bs58dcheckBase = require('./base')
-var tribushash = require('tribushash-js')
+var tribushash = require('tribus-hashjs')
 
 // TRIBUSHASH(TRIBUS(buffer))
 function tribus(buffer) {

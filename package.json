@@ -40,7 +40,7 @@
   "dependencies": {
     "bs58": "^4.0.0",
     "create-hash": "^1.1.0",
-    "tribushash-js": "^1.0.1",
+    "tribus-hashjs": "^1.0.1",
     "safe-buffer": "^5.1.2"
   },
   "devDependencies": {

@@ -6,7 +6,7 @@ A straight forward implementation of base58dcheck extending upon bs58.
 ## Example
 
 ```javascript
-var bs58dcheck = require('bs58grscheck')
+var bs58dcheck = require('bs58dcheck')
 
 var decoded = bs58dcheck.decode('5KNSiE1em23byTDTToLyd6aBbqKdSZsvG4iQkMwYuxvc7MeHSke')
 
