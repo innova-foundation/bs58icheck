@@ -1,0 +1,52 @@
+{
+  "name": "bs58dcheck",
+  "version": "2.1.2",
+  "description": "A straightforward implementation of base58-denarius-check encoding",
+  "keywords": [
+    "base",
+    "base58d",
+    "base58dcheck",
+    "denarius",
+    "bs58",
+    "check",
+    "checksum",
+    "decode",
+    "decoding",
+    "encode",
+    "encoding"
+  ],
+  "homepage": "https://github.com/carsenk/bs58dcheck",
+  "bugs": {
+    "url": "https://github.com/carsenk/bs58dcheck/issues"
+  },
+  "license": "MIT",
+  "author": "Daniel Cousens",
+  "files": [
+    "index.js",
+    "base.js"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carsenk/bs58dcheck.git"
+  },
+  "scripts": {
+    "coverage-report": "nyc report --reporter=lcov",
+    "coverage": "nyc --check-coverage --branches 90 --functions 90 npm run unit",
+    "standard": "standard",
+    "test": "npm run standard && npm run coverage",
+    "unit": "tape test/*.js"
+  },
+  "dependencies": {
+    "bs58": "^4.0.0",
+    "create-hash": "^1.1.0",
+    "tribushash-js": "^1.0.1",
+    "safe-buffer": "^5.1.2"
+  },
+  "devDependencies": {
+    "blake-hash": "^1.0.0",
+    "nyc": "^11.3.0",
+    "standard": "^10.0.3",
+    "tape": "^4.6.2"
+  }
+}
