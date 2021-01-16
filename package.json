@@ -1,12 +1,12 @@
 {
-  "name": "bs58dcheck",
+  "name": "bs58icheck",
   "version": "2.1.2",
-  "description": "A straightforward implementation of base58-denarius-check encoding",
+  "description": "A straightforward implementation of base58-innova-check encoding",
   "keywords": [
     "base",
-    "base58d",
-    "base58dcheck",
-    "denarius",
+    "base58i",
+    "base58icheck",
+    "innova",
     "bs58",
     "check",
     "checksum",
@@ -15,9 +15,9 @@
     "encode",
     "encoding"
   ],
-  "homepage": "https://github.com/carsenk/bs58dcheck",
+  "homepage": "https://github.com/innova-foundation/bs58icheck",
   "bugs": {
-    "url": "https://github.com/carsenk/bs58dcheck/issues"
+    "url": "https://github.com/innova-foundation/bs58icheck/issues"
   },
   "license": "MIT",
   "author": "Daniel Cousens",
@@ -28,7 +28,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/carsenk/bs58dcheck.git"
+    "url": "https://github.com/innova-foundation/bs58icheck.git"
   },
   "scripts": {
     "coverage-report": "nyc report --reporter=lcov",
